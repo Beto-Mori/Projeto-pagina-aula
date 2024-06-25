@@ -15,6 +15,11 @@ p{
     background-color: bisque;
 }
 
+.foto{
+    max-width: 400px;
+    max-height: 400px;
+}
+
 .cor{
     color: red;
 }
