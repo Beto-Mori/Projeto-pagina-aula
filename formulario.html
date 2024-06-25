@@ -8,104 +8,115 @@
     <link rel="stylesheet" href="./src/reset.css" />
   </head>
   <body>
-    <h1>Formulário</h1>
+    <main>
+      <h1>Formulário</h1>
 
-    <h2>
-      Não se preocupe, este formulário não é real, e serve apenas como exemplo.
-    </h2>
+      <h2>
+        Não se preocupe, este formulário não é real, e serve apenas como
+        exemplo.
+      </h2>
 
-    <h3>Formulário de login</h3>
+      <h3>Formulário de login</h3>
 
-    <form method="GET" action="index.html">
+      <form method="GET" action="index.html">
+        <input type="text" name="nome" id="nome" placeholder="Nome" />
+        <input
+          type="text"
+          name="sobrenome"
+          id="sobrenome"
+          placeholder="Sobrenome"
+        />
+        <input
+          type="text"
+          name="celular-ou-email"
+          id="celular-ou-email"
+          placeholder="Celular ou Email"
+        />
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Nova senha"
+        />
+        <br />
+        <label>Data de nascimento</label> <br />
+        <select name="dia" id="">
+          <option value="">Dia</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+          <option value="4">04</option>
+          <option value="5">05</option>
+          <option value="6">06</option>
+          <option value="7">07</option>
+          <option value="8">08</option>
+          <option value="9">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
 
-      <input type="text" name="nome" id="nome" placeholder="Nome" />
-      <input
-        type="text"
-        name="sobrenome"
-        id="sobrenome"
-        placeholder="Sobrenome"
-      />
-      <input
-        type="text"
-        name="celular-ou-email"
-        id="celular-ou-email"
-        placeholder="Celular ou Email"
-      />
-      <input type="password" name="senha" id="senha" placeholder="Nova senha" />
-      <br />
-      <label>Data de nascimento</label> <br>
-      <select name="dia" id="">
-        <option value="">Dia</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-        <option value="4">04</option>
-        <option value="5">05</option>
-        <option value="6">06</option>
-        <option value="7">07</option>
-        <option value="8">08</option>
-        <option value="9">09</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
-      </select>
+        <select name="mes" id="">
+          <option value="">Mês</option>
+          <option value="jan">Jan</option>
+          <option value="fev">Fev</option>
+          <option value="mar">Mar</option>
+          <option value="abr">Abr</option>
+          <option value="mai">Mai</option>
+          <option value="jun">Jun</option>
+          <option value="jul">Jul</option>
+          <option value="ago">Ago</option>
+          <option value="set">Set</option>
+          <option value="out">Out</option>
+          <option value="nov">Nov</option>
+          <option value="dez">Dez</option>
+        </select>
 
-      <select name="mes" id="">
-        <option value="">Mês</option>
-        <option value="jan">Jan</option>
-        <option value="fev">Fev</option>
-        <option value="mar">Mar</option>
-        <option value="abr">Abr</option>
-        <option value="mai">Mai</option>
-        <option value="jun">Jun</option>
-        <option value="jul">Jul</option>
-        <option value="ago">Ago</option>
-        <option value="set">Set</option>
-        <option value="out">Out</option>
-        <option value="nov">Nov</option>
-        <option value="dez">Dez</option>
-      </select>
+        <input type="number" name="ano" id="ano" placeholder="Ano" />
+        <br />
 
-      <input type="number" name="ano" id="ano" placeholder="Ano" />
-      <br />
+        <label>Gênero</label><br />
 
-      <label>Gênero</label><br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino" />
 
-      <label for="feminino">Feminino</label>
-      <input type="radio" name="genero" id="feminino" value="feminino"/>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino" />
 
-      <label for="masculino">Masculino</label>
-      <input type="radio" name="genero" id="masculino" value="masculino"/>
+        <label for="personalizado">Personalizado</label>
+        <input
+          type="radio"
+          name="genero"
+          id="personalizado"
+          value="personalizado"
+        />
+        <br />
 
-      <label for="personalizado">Personalizado</label>
-      <input type="radio" name="genero" id="personalizado" value="personalizado"/>
-      <br>
+        <input type="submit" value="Enviar" />
+      </form>
 
-      <input type="submit" value="Enviar">
-
-    </form>
-
-    <button>
-      <a href="./index.html">Clique aqui para voltar para a página inicial</a>
-    </button>
+      <button>
+        <a href="./index.html">Clique aqui para voltar para a página inicial</a>
+      </button>
+    </main>
   </body>
 </html>

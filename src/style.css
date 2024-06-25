@@ -1,10 +1,15 @@
 #titulo{
-    background-color: antiquewhite;
+    background-color: rgb(155, 153, 150);
 }
 
 h2 {
     background-color: blueviolet;
     border: solid 3px;
+}
+
+h3{
+    background-color:greenyellow;
+    border: solid 3px;  
 }
 
 p{

@@ -10,306 +10,347 @@
   </head>
 
   <body>
-    <h1 id="titulo">Uma página para estudos de HTML e CSS</h1>
+    <header>
+      <h1 id="titulo">Uma página para estudos de HTML e CSS</h1>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Portifólio</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h2>Formatação de de textos:</h2>
+    <main>
+      <article>
+        <h2>Formatação de de textos, veja o exemplro abaixo:</h2>
 
-    <h3>A tag <i>p</i> é utilizada para escrevermos parágrafos.</h3>
+        <h3>A tag <i>p</i> é utilizada para escrevermos parágrafos.</h3>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos kum unde
-      repellat. Nisi voluptates hic magnam, dicta maxime eaque nemo fugiat
-      cupiditate repellendus, saepe ipsam neque eligendi id, nam incidunt?
-    </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos kum unde
+          repellat. Nisi voluptates hic magnam, dicta maxime eaque nemo fugiat
+          cupiditate repellendus, saepe ipsam neque eligendi id, nam incidunt?
+        </p>
 
-    <p>Este texto está em <strong>negrito</strong></p>
+        <p>Este texto está em <strong>negrito</strong></p>
 
-    <p>Este texto está em <i>italico</i></p>
+        <p>Este texto está em <i>italico</i></p>
 
-    <p>Este texto está <u>sublinhado</u></p>
+        <p>Este texto está <u>sublinhado</u></p>
 
-    <p>Este texto está <s>tachado</s></p>
+        <p>Este texto está <s>tachado</s></p>
 
-    <h2>Comentários:</h2>
+        <h2>Comentários:</h2>
 
-    <p>
-      Os comentários são úteis para anotar futuras melhorias no código, mas não
-      é interessante mante-los após a finalização do projeto.
-    </p>
+        <p>
+          Os comentários são úteis para anotar futuras melhorias no código, mas
+          não é interessante mante-los após a finalização do projeto.
+        </p>
 
-    <!--  comentários são feitos assim
+        <!--  comentários são feitos assim
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa.</p>
        -->
+      </article>
 
-    <h2>Links externos:</h2>
+      <article>
+        <h2>Links externos:</h2>
 
-    <!-- mudar o link para o link do meu portifolio -->
-    <a href="https://github.com/Beto-Mori/Projeto-pagina-aula" target="_blank"
-      >Clique aqui e saia desta página</a
-    >
+        <!-- mudar o link para o link do meu portifolio -->
+        <a
+          href="https://github.com/Beto-Mori/Projeto-pagina-aula"
+          target="_blank"
+          >Clique aqui e saia desta página</a
+        >
 
-    <h2>Links internos:</h2>
+        <h2>Links internos:</h2>
 
-    <!-- mudar o link para uma pagina com meus contatos -->
-    <a href="contato.html"
-      >Clique aqui e vá para página de contatos do autor deste projeto</a
-    >
+        <!-- mudar o link para uma pagina com meus contatos -->
+        <a href="contato.html"
+          >Clique aqui e vá para página de contatos do autor deste projeto</a
+        >
 
-    <h2>Imagens:</h2>
+        <h2>Imagens:</h2>
 
-    <img
-      class="foto"
-      src="src/images/Céu azul.jpeg"
-      alt="foto do céu azul com algumas folhas de árvore aparecendo"
-      title="foto do céu azul com algumas folhas de árvore aparecendo"
-    />
+        <img
+          class="foto"
+          src="src/images/Céu azul.jpeg"
+          alt="foto do céu azul com algumas folhas de árvore aparecendo"
+          title="foto do céu azul com algumas folhas de árvore aparecendo"
+        />
 
-    <img src="https://placehold.co/400" alt="placeholder" />
+        <img src="https://placehold.co/400" alt="placeholder" />
+      </article>
 
-    <h2>Listas:</h2>
+      <article>
+        <h2>Listas:</h2>
 
-    <h3>Lista não ordenada</h3>
+        <h3>Lista não ordenada</h3>
 
-    <ul>
-      <li>Café</li>
-      <li>Filtro de Café</li>
-      <li>Bolo de chocolate</li>
-      <li>Energético</li>
-    </ul>
+        <ul>
+          <li>Café</li>
+          <li>Filtro de Café</li>
+          <li>Bolo de chocolate</li>
+          <li>Energético</li>
+        </ul>
 
-    <h3>Lista ordenada</h3>
+        <h3>Lista ordenada</h3>
 
-    <ol>
-      <li>Roberto</li>
-      <li>Renan</li>
-      <li>Laura</li>
-      <li>Pedro</li>
-    </ol>
+        <ol>
+          <li>Roberto</li>
+          <li>Renan</li>
+          <li>Laura</li>
+          <li>Pedro</li>
+        </ol>
+      </article>
 
-    <h2>Tabelas:</h2>
+      <article>
+        <h2>Tabelas:</h2>
 
-    <table>
-      <style>
-        table,
-        th,
-        td {
-          border: 1px solid black;
-        }
-      </style>
+        <table>
+          <style>
+            table,
+            th,
+            td {
+              border: 1px solid black;
+            }
+          </style>
 
-      <thead>
-        <tr>
-          <th>Nome</th>
-          <th>Sobrenome</th>
-          <th>Idade</th>
-          <th>Informações adicionais</th>
-        </tr>
-      </thead>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Sobrenome</th>
+              <th>Idade</th>
+              <th>Informações adicionais</th>
+            </tr>
+          </thead>
 
-      <tbody>
-        <tr>
-          <td>João</td>
-          <td>Dias</td>
-          <td>23</td>
-          <td>Estudante</td>
-        </tr>
-        <tr>
-          <td>Maria</td>
-          <td>Joaquina</td>
-          <td>25</td>
-          <td>Programadora</td>
-        </tr>
-        <tr>
-          <td>Ana</td>
-          <td>Clara</td>
-          <td>27</td>
-          <td>Programadora</td>
-        </tr>
-      </tbody>
-    </table>
+          <tbody>
+            <tr>
+              <td>João</td>
+              <td>Dias</td>
+              <td>23</td>
+              <td>Estudante</td>
+            </tr>
+            <tr>
+              <td>Maria</td>
+              <td>Joaquina</td>
+              <td>25</td>
+              <td>Programadora</td>
+            </tr>
+            <tr>
+              <td>Ana</td>
+              <td>Clara</td>
+              <td>27</td>
+              <td>Programadora</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article>
+        <h2>Anatomia da Tag Input</h2>
 
-    <h2>Anatomia da Tag Input</h2>
+        <h3>input text</h3>
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome aqui"
+        />
+        <br />
 
-    <h3>input text</h3>
-    <label for="nome">Nome</label>
-    <input
-      type="text"
-      name="nome"
-      id="nome"
-      placeholder="Digite seu nome aqui"
-    />
-    <br />
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Digite seu email aqui"
+        />
 
-    <label for="email">Email</label>
-    <input
-      type="text"
-      name="email"
-      id="email"
-      placeholder="Digite seu email aqui"
-    />
+        <h3>input number</h3>
+        <label for="numero">Idade</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          placeholder="Digite sua idade"
+        />
 
-    <h3>input number</h3>
-    <label for="numero">Idade</label>
-    <input
-      type="number"
-      name="numero"
-      id="numero"
-      placeholder="Digite sua idade"
-    />
+        <h3>input password</h3>
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite uma senha"
+        />
 
-    <h3>input password</h3>
-    <label for="senha">Senha</label>
-    <input
-      type="password"
-      name="senha"
-      id="senha"
-      placeholder="Digite uma senha"
-    />
+        <h3>input submit</h3>
+        <label>Submit</label>
+        <form action="">
+          <input type="submit" value="Salvar" />
+        </form>
 
-    <h3>input submit</h3>
-    <label>Submit</label>
-    <form action="">
-      <input type="submit" value="Salvar" />
-    </form>
+        <h3>input checkbox</h3>
+        <label for="C#">C#</label>
+        <input id="c#" type="checkbox" name="linguagens" id="linguagens" />
+        <br />
 
-    <h3>input checkbox</h3>
-    <label for="C#">C#</label>
-    <input id="c#" type="checkbox" name="linguagens" id="linguagens" /> <br />
+        <label for="javascript">JavaScript</label>
+        <input
+          id="javascript"
+          type="checkbox"
+          name="linguagens"
+          id="linguagens"
+        />
 
-    <label for="javascript">JavaScript</label>
-    <input id="javascript" type="checkbox" name="linguagens" id="linguagens" />
+        <h3>input radio</h3>
+        <label for="masculino">Masculino</label>
+        <input id="masculino" type="radio" name="genero" /><br />
 
-    <h3>input radio</h3>
-    <label for="masculino">Masculino</label>
-    <input id="masculino" type="radio" name="genero" /><br />
+        <label for="feminino">Feminino</label>
+        <input id="feminino" type="radio" name="genero" />
 
-    <label for="feminino">Feminino</label>
-    <input id="feminino" type="radio" name="genero" />
+        <h2>Tag Select</h2>
+        <label for="filmes">Filmes</label>
+        <select name="filmes" id="filmes">
+          <option value="">Selecione um filme</option>
+          <option value="Senhor dos anéis">Senhor dos anéis</option>
+          <option value="Mad Max">Mad Max</option>
+          <option value="Harry Potter">Harry Potter</option>
+          <option value="Vingadoes">Vingadores</option>
+        </select>
+      </article>
 
-    <h2>Tag Select</h2>
-    <label for="filmes">Filmes</label>
-    <select name="filmes" id="filmes">
-      <option value="">Selecione um filme</option>
-      <option value="Senhor dos anéis">Senhor dos anéis</option>
-      <option value="Mad Max">Mad Max</option>
-      <option value="Harry Potter">Harry Potter</option>
-      <option value="Vingadoes">Vingadores</option>
-    </select>
+      <article>
+        <h2>Tag Textarea</h2>
+        <label for="texto">Escreva um pequeno texto</label>
+        <textarea name="texto" cols="30" rows="10" id=""> </textarea>
 
-    <h2>Tag Textarea</h2>
-    <label for="texto">Escreva um pequeno texto</label>
-    <textarea name="texto" cols="30" rows="10" id=""> </textarea>
+        <h2>Tag Button</h2>
 
-    <h2>Tag Button</h2>
+        <button>Clicar aqui</button>
+        <br />
+        <input type="button" value="Clicar aqui" onclick="alert('Olá')" />
+        <br />
+        <button>
+          <a href="./formulario.html">Clique aqui e vá para o formulário</a>
+        </button>
+      </article>
 
-    <button>Clicar aqui</button>
-    <br />
-    <input type="button" value="Clicar aqui" onclick="alert('Olá')"/>
-    <br>
-    <button><a href="./formulario.html">Clique aqui e vá para o formulário</a></button>
+      <article>
+        <h2>CSS inline - <strong>NÃO RECOMENDADO</strong> :</h2>
 
-    <h2>CSS inline - <strong>NÃO RECOMENDADO</strong> :</h2>
+        <p>
+          Esta abordagem não é recomendada, pois a manutenção do código se torna
+          desnecessariamente trabalhosa e repetitiva
+        </p>
 
-    <p>
-      Esta abordagem não é recomendada, pois a manutenção do código se torna
-      desnecessariamente trabalhosa e repetitiva
-    </p>
+        <h2>CSS interno - <strong>NÃO RECOMENDADO</strong> :</h2>
 
-    <h2>CSS interno - <strong>NÃO RECOMENDADO</strong> :</h2>
+        <p>
+          Para esta estilização ser aplicada: colocariamos uma
+          <i>tag style</i> no <i>head</i> da página e a estilização seria feita
+          de forma parecida com o CSS padrão, seria mais fácil a manutenção
+          porém ainda não é o ideal.
+        </p>
 
-    <p>
-      Para esta estilização ser aplicada: colocariamos uma <i>tag style</i> no
-      <i>head</i> da página e a estilização seria feita de forma parecida com o
-      CSS padrão, seria mais fácil a manutenção porém ainda não é o ideal.
-    </p>
+        <h2>CSS externo - RECOMENDADO :</h2>
+        <p>
+          Esta abordagem é a recomendada para a estilização de páginas HTML,
+          pois deivide as funções para seus respectivos diretórios.
+        </p>
 
-    <h2>CSS externo - RECOMENDADO :</h2>
-    <p>
-      Esta abordagem é a recomendada para a estilização de páginas HTML, pois
-      deivide as funções para seus respectivos diretórios.
-    </p>
+        <h2>Cores no CSS:</h2>
 
-    <h2>Cores no CSS:</h2>
+        <ol>
+          <li class="cor">As cores chapadas, apenas com o nome da cor</li>
+          <li class="rgb">Usando rgb - red, green, blue.</li>
+          <li class="rgba">Usando rgba - red, green, blue e uma opacidade.</li>
+          <li class="hexa">
+            Por hexadecimal, onde 0 é a menor cor e a maior cor será F, conforme
+            essa ordem: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+          </li>
+        </ol>
 
-    <ol>
-      <li class="cor">As cores chapadas, apenas com o nome da cor</li>
-      <li class="rgb">Usando rgb - red, green, blue.</li>
-      <li class="rgba">Usando rgba - red, green, blue e uma opacidade.</li>
-      <li class="hexa">
-        Por hexadecimal, onde 0 é a menor cor e a maior cor será F, conforme
-        essa ordem: 0 1 2 3 4 5 6 7 8 9 A B C D E F
-      </li>
-    </ol>
+        <h2>Classes e Id's no CSS:</h2>
 
-    <h2>Classes e Id's no CSS:</h2>
+        <h3><i>Margin, padding</i> e <i>border</i> no CSS</h3>
 
-    <h3><i>Margin, padding</i> e <i>border</i> no CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a in
+          aspernatur, non nihil consequuntur adipisci iure? Praesentium illo
+          dolorum accusantium exercitationem impedit possimus excepturi
+          cupiditate ea totam, doloremque sunt
+        </p>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a in
-      aspernatur, non nihil consequuntur adipisci iure? Praesentium illo dolorum
-      accusantium exercitationem impedit possimus excepturi cupiditate ea totam,
-      doloremque sunt
-    </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a in
+          aspernatur, non nihil consequuntur adipisci iure? Praesentium illo
+          dolorum accusantium exercitationem impedit possimus excepturi
+          cupiditate ea totam, doloremque sunt
+        </p>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a in
-      aspernatur, non nihil consequuntur adipisci iure? Praesentium illo dolorum
-      accusantium exercitationem impedit possimus excepturi cupiditate ea totam,
-      doloremque sunt
-    </p>
+        <h2 class="modeloscaixas">Modelos de caixas no CSS:</h2>
 
-    <h2 class="modeloscaixas">Modelos de caixas no CSS:</h2>
+        <p class="caixa">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+          praesentium ipsam. Saepe voluptate autem animi distinctio veritatis
+          provident, molestias placeat laboriosam praesentium. Necessitatibus
+          voluptatem, nam laudantium rem deleniti laborum ipsum.
+        </p>
 
-    <p class="caixa">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-      praesentium ipsam. Saepe voluptate autem animi distinctio veritatis
-      provident, molestias placeat laboriosam praesentium. Necessitatibus
-      voluptatem, nam laudantium rem deleniti laborum ipsum.
-    </p>
+        <p class="caixa">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
+          iste. Nostrum velit unde praesentium pariatur. Blanditiis assumenda
+          incidunt ratione, temporibus corporis, corrupti fugit voluptatem
+          consequatur sed eveniet exercitationem! A, atque.
+        </p>
 
-    <p class="caixa">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, iste.
-      Nostrum velit unde praesentium pariatur. Blanditiis assumenda incidunt
-      ratione, temporibus corporis, corrupti fugit voluptatem consequatur sed
-      eveniet exercitationem! A, atque.
-    </p>
+        <p>
+          Um ponto importante: não é recomnedado o usar de mais de uma vez o
+          atributo <i>id</i> por página
+        </p>
 
-    <p>
-      Um ponto importante: não é recomnedado o usar de mais de uma vez o
-      atributo <i>id</i> por página
-    </p>
+        <p>
+          O atributo <i>class</i> é o recomendado para a estilização de mais de
+          um elemento por vez
+        </p>
 
-    <p>
-      O atributo <i>class</i> é o recomendado para a estilização de mais de um
-      elemento por vez
-    </p>
+        <h2>Divs e Span no CSS</h2>
 
-    <h2>Divs e Span no CSS</h2>
+        <div class="produto">
+          <h3>Polystation</h3>
 
-    <div class="produto">
-      <h3>Polystation</h3>
+          <p class="descricao-pruduto promocao">
+            Um baita <span> vídeo game</span>
+          </p>
+          <p>R$ 3000,00</p>
+        </div>
 
-      <p class="descricao-pruduto promocao">
-        Um baita <span> vídeo game</span>
-      </p>
-      <p>R$ 3000,00</p>
-    </div>
+        <div class="produto">
+          <h3>PC com led boladão</h3>
 
-    <div class="produto">
-      <h3>PC com led boladão</h3>
-
-      <p class="descricao-pruduto">
-        Um <span>PC</span> pra ninguém botar defeito
-      </p>
-      <p>R$ 10000,00</p>
-    </div>
+          <p class="descricao-pruduto">
+            Um <span>PC</span> pra ninguém botar defeito
+          </p>
+          <p>R$ 10000,00</p>
+        </div>
+      </article>
+    </main>
   </body>
 
-  <footer>
-    <p class="rodape">
+  <footer class="rodape">
+    <p>
       Feito com carinho como parte e início dos estudos sobre programação do
       curso DevQuest
     </p>
+    
+    <address>
+      Página feita por:
+      <a href="https://github.com/Beto-Mori" target="_blank">Roberto</a>
+    </address>
   </footer>
 </html>
