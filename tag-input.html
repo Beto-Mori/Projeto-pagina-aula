@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Uma página só com HTML" />
+    <title>Anatomia da Tag Input</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/reset.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1 id="titulo">Anatomia da Tag Input</h1>
+
+        <h2>input text</h2>
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome aqui"
+        />
+        <br />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Digite seu email aqui"
+        />
+
+        <h2>input number</h2>
+        <label for="numero">Idade</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          placeholder="Digite sua idade"
+        />
+
+        <h2>input password</h2>
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite uma senha"
+        />
+
+        <h2>input submit</h2>
+        <label>Submit</label>
+        <form action="">
+          <input type="submit" value="Salvar" />
+        </form>
+
+        <h2>input checkbox</h2>
+        <label for="C#">C#</label>
+        <input id="c#" type="checkbox" name="linguagens" id="linguagens" />
+        <br />
+
+        <label for="javascript">JavaScript</label>
+        <input
+          id="javascript"
+          type="checkbox"
+          name="linguagens"
+          id="linguagens"
+        />
+
+        <h2>input radio</h2>
+        <label for="masculino">Masculino</label>
+        <input id="masculino" type="radio" name="genero" /><br />
+
+        <label for="feminino">Feminino</label>
+        <input id="feminino" type="radio" name="genero" />
+      </article>
+
+      <article>
+        <h2>Tag Select</h2>
+        <label for="filmes">Filmes</label>
+        <select name="filmes" id="filmes">
+          <option value="">Selecione um filme</option>
+          <option value="Senhor dos anéis">Senhor dos anéis</option>
+          <option value="Mad Max">Mad Max</option>
+          <option value="Harry Potter">Harry Potter</option>
+          <option value="Vingadoes">Vingadores</option>
+        </select>
+
+        <h2>Tag Textarea</h2>
+        <label for="texto">Escreva um pequeno texto</label>
+        <textarea name="texto" cols="30" rows="10" id=""> </textarea>
+
+        <h2>Tag Button</h2>
+
+        <button>Clicar aqui</button>
+        <br />
+        <input type="button" value="Clicar aqui" onclick="alert('Olá')" />
+        <br />
+        <button>
+          <a href="./formulario.html">Clique aqui e vá para o formulário</a>
+        </button>
+      </article>
+    </main>
+  </body>
+</html>
