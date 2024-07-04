@@ -1,0 +1,63 @@
+#titulo {
+    background-color: rgb(155, 153, 150);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Poppins;
+    margin: 0 0 30px;
+  }
+
+h2 {
+  background-color: blueviolet;
+  border: solid 3px;
+}
+
+h3 {
+  text-align: center;
+  background-color: aquamarine;
+  border: solid 3px;
+}
+
+p{
+margin: 10px 0 10px;
+color: crimson;
+}
+
+.foto {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.bg {
+  background-color: lightgreen;
+  background-image: url("images/cat.png");
+}
+
+.bg-image{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.bg-img {
+  width: 513px;
+  height: 340px;
+}
+
+.bg-repeat {
+  background-repeat: no-repeat;
+  height: 540px;
+}
+
+.bg-size-cover {
+  background-size: cover;
+  height: 540px; /* A altura do background-size: cover; deve ser, no máximo, a altura da imagem para que ela não perca a qualidade */
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  height: 540px;
+}
+
+.bg-position {
+  /* Utilizando a shorthand */
+  background: #000 url("images/cat.png") no-repeat bottom right;
+  height: 540px; /* Pro background-position funcionar é necessário definir o background-repeat como no-repeat, caso contrário a imagem irá repetir, ocupando todo o espaço do elemento e ignorando o posicionamento desejado. Possui dois valores e o padrão é center center */
+}
