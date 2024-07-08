@@ -1,8 +1,7 @@
 #titulo {
-  background-color: rgb(155, 153, 150);
+  background-color: rgb(135, 181, 241);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Poppins;
-  margin: 0 0 30px;
 }
 
 a {
@@ -11,47 +10,68 @@ a {
 }
 
 a:visited {
-  color: blueviolet;
+  color: rgb(23, 23, 23)
+}
+
+a:hover{
+  color: rgb(119, 119, 119)
+}
+
+.principal {
+  color: #000000;
+  border: solid 5px rgb(135, 181, 241);
+  padding: 80px;
+  background-image: url(./images/céu-azul-2.jpeg);
+  background-size: cover;
 }
 
 .estilo-fonte-itens {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 23px;
 }
 
 .estilo-visual-header {
-  background-color: lightblue;
-  display: inline;
-  margin: 10px 0 10px;
-  border: 3px solid black;
-  padding: 10px 100px;
+  background-color: rgb(135, 181, 241);
+  display: inline-block;
+  padding: 10px 10px;
+  width: 600px;
 }
 
 .estilo-visual-itens {
-  background-color: beige;
-  padding: 10px 10px;
-  border: 3px solid black;
+  display: inline-block;
+  background-color: rgb(135, 181, 241);
+  padding: 50px 50px;
+  border: 5px solid rgb(13, 13, 133);
   margin: 10px 10px;
 }
 
 h2 {
-  background-color: blueviolet;
-  border: solid 3px;
+  font-family: Poppins;
+  background-color:  rgb(135, 181, 241);
+
 }
 
 h3 {
   text-align: center;
-  background-color: aquamarine;
-  border: solid 3px;
+  font-family: Poppins;
+  background-color:  rgb(135, 181, 241);
 }
 
 p {
   font-size: 23px;
   margin: 30px 0 60px;
   padding: 20px;
-  border: solid 3px;
-  background-color: bisque;
+  border: 5px solid rgb(13, 13, 133);
+  background-color: rgb(135, 181, 241);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  background-color: rgb(135, 181, 241);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Poppins;
 }
 
 .maiuscula {
@@ -98,7 +118,6 @@ p {
   line-height: 60px;
 }
 
-
 .cor {
   color: red;
 }
@@ -139,10 +158,30 @@ p {
   color: blueviolet;
 }
 
+
+.em-bloco li {
+  background: aqua;
+  width: 230px;
+  margin-bottom: 50px;
+}
+
+.em-linha li {
+  display: inline;
+  background: aqua;
+  margin-bottom: 50px;
+}
+
+.em-linha-e-bloco li {
+  display: inline-block;
+  background: aqua;
+  width: 230px;
+  margin-bottom: 50px;
+}
+
 .rodape {
   color: #000000;
-  margin: 20px 0 0;
-  border: solid 10px green;
+  border: solid 5px rgb(135, 181, 241);
   padding: 10px;
-  background-color: greenyellow;
+  background-image: url(./images/Céu\ azul.jpeg);
+  background-size: cover;
 }

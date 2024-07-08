@@ -1,24 +1,29 @@
 #titulo {
-    background-color: rgb(155, 153, 150);
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: Poppins;
-    margin: 0 0 30px;
-  }
+  background-color: rgb(135, 181, 241);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Poppins;
+} 
+nav{
+  background-color: rgb(135, 181, 241);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Poppins;
+}
+
 
 h2 {
-  background-color: blueviolet;
-  border: solid 3px;
+  font-family: Poppins;
+  background-color:  rgb(135, 181, 241);
 }
 
 h3 {
   text-align: center;
-  background-color: aquamarine;
-  border: solid 3px;
+  font-family: Poppins;
+  background-color:  rgb(135, 181, 241);
 }
 
-p{
-margin: 10px 0 10px;
-color: crimson;
+p {
+  margin: 10px 0 10px;
+  color: crimson;
 }
 
 .foto {
@@ -31,9 +36,9 @@ color: crimson;
   background-image: url("images/cat.png");
 }
 
-.bg-image{
-    max-width: 400px;
-    max-height: 400px;
+.bg-image {
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .bg-img {
