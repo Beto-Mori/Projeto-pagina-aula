@@ -3,6 +3,22 @@
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Poppins;
 } 
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Poppins;
+}
+
+a:visited {
+  color: rgb(23, 23, 23)
+}
+
+a:hover{
+  color: rgb(119, 119, 119)
+}
+
+
 nav{
   background-color: rgb(135, 181, 241);
   /* font-family: Arial, Helvetica, sans-serif; */

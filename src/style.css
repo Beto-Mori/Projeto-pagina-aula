@@ -7,6 +7,7 @@
 a {
   text-decoration: none;
   color: #000000;
+  font-family: Poppins;
 }
 
 a:visited {
@@ -72,6 +73,8 @@ nav{
   background-color: rgb(135, 181, 241);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Poppins;
+  font-size: 23px;
+
 }
 
 .maiuscula {
@@ -177,6 +180,54 @@ nav{
   width: 230px;
   margin-bottom: 50px;
 }
+
+.elemento{
+  color: #fff;
+  font-size: 32px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+
+.elemento-estatico{
+  position: static;
+  background-color: crimson;
+}
+
+.elemento-relativo{
+  position: relative;
+  background-color: coral;
+  left: 200px;
+}
+
+.elemento-absoluto{
+  position: absolute;
+  background-color: darkcyan;
+  left: 200px;
+}
+
+.elemento-relativo-com-filho{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(214, 212, 212);
+}
+
+.elemento-absoluto-com-pai{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: darkolivegreen;
+  bottom: 20px;
+  left: 200px;
+}
+
+/* .elemento-fixado{
+
+} */
+
 
 .rodape {
   color: #000000;
