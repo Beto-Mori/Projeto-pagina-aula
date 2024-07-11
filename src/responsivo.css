@@ -1,4 +1,10 @@
+@media (max-width: 576px) {
+  .cabecalho nav {
+    background-color: rgb(135, 181, 241);
+  }
+}
 main {
   min-width: 320px;
   max-width: fit-content;
 }
+
