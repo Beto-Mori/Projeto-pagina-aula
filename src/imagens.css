@@ -2,6 +2,7 @@
   background-color: rgb(135, 181, 241);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Poppins;
+  font-size: 60px;
 } 
 
 a {
@@ -23,18 +24,21 @@ nav{
   background-color: rgb(135, 181, 241);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Poppins;
+  font-size: 23px;
 }
 
 
 h2 {
   font-family: Poppins;
   background-color:  rgb(135, 181, 241);
+  font-size: 35px;
 }
 
 h3 {
   text-align: center;
   font-family: Poppins;
   background-color:  rgb(135, 181, 241);
+  font-size: 30px;
 }
 
 p {

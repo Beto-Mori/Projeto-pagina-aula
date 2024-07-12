@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Uma página só com HTML" />
+    <link rel="shortcut icon" href="../src/images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,9 +30,9 @@
 
     <main>
       <article>
-        <h1 id="titulo">Imagens:</h1>
+        <h1 id="titulo">Imagens no HTML:</h1>
 
-        <h2>Imagens no HTML:</h2>
+        <h2>Tag img:</h2>
 
         <img
           class="foto"
@@ -42,14 +43,31 @@
 
         <img src="https://placehold.co/400" alt="placeholder" />
 
-        <h2>Imagens no CSS</h2>
+        <h2> Tag picture: </h2>
+        <h3>picture com mobile first</h3>
+          <picture>
+              <source media="(min-width: 1024px)" srcset="../src/images/cat.png">
+              <source media="(min-width: 768px)" srcset="../src/images/cat.png">
+              <source media="(min-width: 465px)" srcset="../src/images/cat.png">
+              <img src="../src/images/cat.png" alt=" nenhuma imagem ">
+          </picture>
+
+          <h3>picture com desktop first</h3>
+          <picture>
+              <source media="(max-width: 375px)" srcset="../src/images/céu-azul-2.jpeg">
+              <source media="(max-width: 425px)" srcset="../src/images/céu-azul-2.jpeg">
+              <source media="(max-width: 768px)" srcset="../src/images/céu-azul-2.jpeg">
+              <img src="../src/images/céu-azul-2.jpeg" alt=" nenhuma imagem ">
+          </picture>
+
+        <h2>Adicionando imagens pelo CSS:</h2>
 
         <h3>Backgrounds</h3>
         <div class="bg bg-image">
           <p>Este texto possui uma imagem de fundo, ou seja, uma imagem de <i>background</i>. </p>
       
         </div>
-        <h2>Background image</h2>
+        <h2>Background image:</h2>
         <div class="bg bg-img">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est
@@ -59,7 +77,7 @@
           </p>
         </div>
     
-        <h2>Background repeat</h2>
+        <h2>Background repeat:</h2>
         <div class="bg bg-repeat">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est
@@ -69,7 +87,7 @@
           </p>
         </div>
     
-        <h2>Background cover</h2>
+        <h2>Background cover:</h2>
         <div class="bg bg-size-cover">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est
@@ -79,7 +97,7 @@
           </p>
         </div>
     
-        <h2>Background fixed</h2>
+        <h2>Background fixed:</h2>
         <div class="bg bg-fixed">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est
@@ -89,7 +107,7 @@
           </p>
         </div>
     
-        <h2>Background position</h2>
+        <h2>Background position:</h2>
         <div class="bg-position">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est
