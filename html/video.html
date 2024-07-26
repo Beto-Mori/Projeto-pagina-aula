@@ -31,8 +31,49 @@
     <main>
       <article>
         <h1 id="titulo">Adicionando vídeos em sua página HTML</h1>
+
+        <p>
+          Ponto importante: Não é muito aconselhável este método de adição de
+          vídeos em páginas pois consome muita banda do usuário e pode ser
+          custoso para o dono do servidor também.
+        </p>
+
         <h2>tag video</h2>
-        
+        <h3>usando a <i>tag video</i> de maneira simples:</h3>
+        <video
+          class="video"
+          controls
+          src="/src/video.mp4"
+          poster="/src/images/thumb.jpg"
+        ></video>
+
+        <h3>usando a <i>tag video</i> de maneira avançada:</h3>
+        <video class="video" controls poster="/src/images/thumb.jpg">
+          <source src="/src/video.mp4" type="video/mp4" />
+          <source src="/src/video.ogg" type="video/ogg" />
+          <source src="/src/video.webm" type="video/webm" />
+
+          <p>Este navegador não têm suporte para tag vídeo.</p>
+        </video>
+
+        <h3>
+          Adicionando vídeos de maneira avançada com a tag <i>iframe</i>:
+        </h3>
+        <iframe
+          class="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/1tjuhCdWPB4?si=-SAC_mkLYLhVwXbI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <h3>Bônus:</h3>
+        <p>A <i>tag iframe</i> também pode ser usada para incorporarmos páginas internas do nosso projeto.</p>
+        <iframe class="video" src="audio.html" frameborder="0"></iframe>
       </article>
     </main>
   </body>
