@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../src/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pseudo-elementos no CSS</title>
+    <link rel="stylesheet" href="../src/pseudo.css" />
+    <link rel="stylesheet" href="../src/reset.css" />
+    <link rel="stylesheet" href="../src/responsivo.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1 id="titulo">Pseudo-elementos</h1>
+        <h2>Alguns Pseudo-elementos são:</h2>
+        <div>
+          <h3>First-letter: mudará a primeira letra.</h3>
+
+          <p class="first-letter">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            veritatis, minima natus nemo odit sequi aspernatur repellendus
+            voluptates, libero, ipsa quis ab dignissimos et. Unde aspernatur
+            alias fugiat earum deserunt!
+          </p>
+        </div>
+
+        <div>
+          <h3>First-line: mudará a primeira linha.</h3>
+          <p class="first-line">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            veritatis, minima natus nemo odit sequi aspernatur repellendus
+            voluptates, libero, ipsa quis ab dignissimos et. Unde aspernatur
+            alias fugiat earum deserunt!
+          </p>
+        </div>
+
+        <div>
+            <h3>Before: colocará um elemento antes do elemento.</h3>
+            <p class="before">Exemplo. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab libero explicabo labore quas dicta sint impedit exercitationem praesentium delectus voluptatum est doloribus animi dolor, consequuntur fuga alias, tenetur earum. Dignissimos?</p>
+        </div>
+
+        <div>
+            <h3>After: colocará um elemento depois do elemento.</h3>
+            <p class="after">Exemplo 2 <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquid dolores unde ad quia, amet placeat earum qui quibusdam dolorum tenetur deleniti nam veniam animi. Ducimus optio quas eaque et.</p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
