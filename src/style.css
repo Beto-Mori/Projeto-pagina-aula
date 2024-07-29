@@ -12,11 +12,15 @@ a {
 }
 
 a:visited {
-  color: rgb(23, 23, 23)
+  color: rgb(23, 23, 23);
 }
 
-a:hover{
-  color: rgb(119, 119, 119)
+a:hover {
+  color: rgb(119, 119, 119);
+}
+
+a[href="https://www.google.com.br/?hl=pt-BR"] {
+  color: blue;
 }
 
 .principal {
@@ -50,19 +54,19 @@ a:hover{
 
 h2 {
   font-family: Poppins;
-  background-color:  rgb(135, 181, 241);
+  background-color: rgb(135, 181, 241);
   font-size: 35px;
-
 }
 
 h3 {
   text-align: center;
   font-family: Poppins;
-  background-color:  rgb(135, 181, 241);
+  background-color: rgb(135, 181, 241);
   font-size: 30px;
 }
 
-p {
+p,
+span {
   font-size: 23px;
   margin: 30px 0 60px;
   padding: 20px;
@@ -70,14 +74,14 @@ p {
   background-color: rgb(135, 181, 241);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  display: block;
 }
 
-nav{
+nav {
   background-color: rgb(135, 181, 241);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Poppins;
   font-size: 23px;
-
 }
 
 .maiuscula {
@@ -170,7 +174,6 @@ nav{
   color: blueviolet;
 }
 
-
 .em-bloco li {
   background: aqua;
   width: 230px;
@@ -190,7 +193,7 @@ nav{
   margin-bottom: 50px;
 }
 
-.elemento{
+.elemento {
   color: #fff;
   font-size: 32px;
   width: 250px;
@@ -200,37 +203,45 @@ nav{
   font-family: Poppins;
 }
 
-.elemento-estatico{
+.elemento-estatico {
   position: static;
   background-color: crimson;
 }
 
-.elemento-relativo{
+.elemento-relativo {
   position: relative;
   background-color: coral;
   left: 200px;
 }
 
-.elemento-absoluto{
+.elemento-absoluto {
   position: absolute;
   background-color: darkcyan;
   left: 200px;
 }
 
-.elemento-relativo-com-filho{
+.elemento-relativo-com-filho {
   position: relative;
   width: 400px;
   height: 400px;
   background-color: rgb(214, 212, 212);
 }
 
-.elemento-absoluto-com-pai{
+.elemento-absoluto-com-pai {
   position: absolute;
   width: 150px;
   height: 150px;
   background-color: darkolivegreen;
   bottom: 20px;
   left: 200px;
+}
+
+.classe-pai .filha {
+  color: chocolate;
+}
+
+.classe-pai > p {
+  color: #715639;
 }
 
 .rodape {

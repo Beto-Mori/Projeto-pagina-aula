@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../src/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Seletores no CSS</title>
+    <link rel="stylesheet" href="../src/style.css" />
+    <link rel="stylesheet" href="../src/reset.css" />
+    <link rel="stylesheet" href="../src/responsivo.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1 id="titulo">Seletores no CSS</h1>
+
+        <h2>Estilização com <i>tag</i>:</h2>
+        <p>
+          Este texto está estilizado usando o seletor de tag P <br /><a
+            href="./texto.html"
+            >Ver mais sobre <i>tag P</i>.</a
+          ><br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+          corporis ab aperiam laboriosam nostrum reiciendis sed, quam ipsum,
+          repellat animi, eveniet numquam? Beatae ducimus illum praesentium
+          perferendis autem, dolores vel?
+        </p>
+
+        <h2>Estilização com Classe:</h2>
+        <p class="sublinhado">
+          Este texto está estilizado usando o seletor de Classe<br /><a
+            href="./classes-ids-css.html"
+            >Ver mais sobre Classes.</a
+          ><br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+          corporis ab aperiam laboriosam nostrum reiciendis sed, quam ipsum,
+          repellat animi, eveniet numquam? Beatae ducimus illum praesentium
+          perferendis autem, dolores vel?
+        </p>
+
+        <h2>Estilização com ID # :</h2>
+        <p>
+          O título desta página está estilizado usando um ID<br /><a
+            href="./classes-ids-css.html"
+            >Ver mais sobre ID.</a
+          >
+        </p>
+
+        <h2>Estilização com seletor global * :</h2>
+        <p>A página inteira está estilizada com seletor global *</p>
+
+        <h2>Estilização com duas ou mais Classes:</h2>
+        <p class="sublinhado esquerda">
+          Este texto está estilizado usando dois seletores de Classes<br /><a
+            href="./classes-ids-css.html"
+            >Ver mais sobre Classes.</a
+          ><br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+          corporis ab aperiam laboriosam nostrum reiciendis sed, quam ipsum,
+          repellat animi, eveniet numquam? Beatae ducimus illum praesentium
+          perferendis autem, dolores vel?
+        </p>
+
+        <h2>Estilização com Vírgula:</h2>
+        <p>
+          Texto 1 <br />Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Pariatur, quo modi mollitia fuga odit eaque a aliquam tempora
+          accusamus fugit fugiat facilis doloremque molestiae quos consequatur
+          debitis quis error assumenda.
+        </p>
+        <span
+          >Texto 2 <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          ipsum similique cumque, repellendus laborum, minus fugit dolorum ex,
+          iste aliquam unde ratione iure. Itaque voluptate voluptas sequi
+          cupiditate dolores rem.
+        </span>
+        <p>
+          Os dois textos acima são <i>tags</i> diferentes mas estão estilizados
+          igualmente, separados por uma virgula no HTML. <br /><a
+            href="texto.html"
+            >Ver mais sobre <i>tags</i></a
+          >
+        </p>
+
+        <h2>Estilização com Classe filha:</h2>
+        <div class="classe-pai">
+          <p class="filha">
+            Este texto está estilizado usando duas classes mas separadas,
+            criando assim, uma hierarquia. <br /><a
+              href="./classes-ids-css.html"
+              >Ver mais sobre Classes.</a
+            ><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            soluta earum, explicabo qui ipsa provident sint itaque officiis
+            dignissimos voluptatem suscipit, voluptas doloribus. Ea vel
+            repellendus ex facilis, natus dignissimos.
+            <br />
+          </p>
+        </div>
+
+        <h2>Estilização com seletor > (maior que) :</h2>
+        <div class="classe-pai">
+          <p>
+            Com este seletor podemos estilizar todos os filhos dentro de uma
+            classe pai.
+            <a href="./classes-ids-css.html">Ver mais sobre Classes.</a>
+          </p>
+          <p>
+            texto 1 <br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+            similique blanditiis quas cum natus hic laudantium ratione et.
+          </p>
+          <p>
+            Texto 2 <br />Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Commodi similique blanditiis quas cum natus hic laudantium
+            ratione et.
+          </p>
+        </div>
+
+        <h2>Estilização com atributos:</h2>
+        <p>
+          <a href="https://www.google.com.br/?hl=pt-BR" target="_blank"
+            >Link para o Google estilizado usando o atributo <i>href</i>.
+          </a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
