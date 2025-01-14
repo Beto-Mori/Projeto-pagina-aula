@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../src/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flexbox Direction</title>
+    <link rel="stylesheet" href="../src/reset.css" />
+    <link rel="stylesheet" href="../src/responsivo.css" />
+    <link rel="stylesheet" href="../src/flexbox.css" />
+    <link rel="stylesheet" href="../src/globals.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1 id="titulo">Flexbox</h1>
+
+        <h2>Trabalhando com flexbox</h2>
+
+        <p>
+          O flexbox trabalha com 2 eixos, o eixo principal (na horizontal); e o
+          eixo transversal (na vertical). O comportamento dos eixos é definido
+          pela propriedade CSS flex-direction, é ela quem vai ditar as regras
+          dos eixos. Possui 4 valores principais: <br />
+          - row <br />
+          - row-reverse <br />
+          - column <br />
+          - column-reverse
+        </p>
+
+        <h2>Flex-Direction: Row</h2>
+        <div class="container row">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+
+        <h2>Flex-Direction: Row-reverse</h2>
+        <div class="container row-reverse">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+
+        <h2>Flex-Direction: Column</h2>
+        <div class="container column">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+
+        <h2>Flex-Direction: Column-reverse</h2>
+        <div class="container column-reverse">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
