@@ -27,28 +27,61 @@
   justify-content: flex-end;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 .container.space-between div,
 .container.space-around div,
 .container.space-evenly div {
-    margin: 0;
+  margin: 0;
 }
 
-.space-between{
-    display: flex;
-    justify-content: space-between;
+.space-between {
+  display: flex;
+  justify-content: space-between;
 }
 
-.space-around{
-    display: flex;
-    justify-content: space-around;
+.space-around {
+  display: flex;
+  justify-content: space-around;
 }
 
-.space-evenly{
-    display: flex;
-    justify-content: space-evenly;
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-start2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-end2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.center2 {
+  display: flex;
+  align-items: center;
+}
+
+.stretch {
+  display: flex;
+  align-items: stretch;
+}
+
+.baseline{
+  display: flex;
+  align-items: baseline;
+}
+
+.container2 div.baseline-2{
+  font-size: 40px;
+}
+
+.container2 div.baseline-3{
+  font-size: 80px;
 }
