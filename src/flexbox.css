@@ -85,3 +85,66 @@
 .container2 div.baseline-3{
   font-size: 80px;
 }
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.flow {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.flex-start3 {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-end3{
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.center3 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.space-between2 {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.space-around2 {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.space-evenly2 {
+  display: flex;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.stretch2 {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
