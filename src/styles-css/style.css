@@ -60,7 +60,7 @@ nav {
   color: #000000;
   border: solid 5px rgb(135, 181, 241);
   padding: 80px;
-  background-image: url(./images/céu-azul-2.jpeg);
+  background-image: url(../images/céu-azul-2.jpeg);
   background-size: cover;
 }
 
@@ -253,6 +253,6 @@ nav {
   color: #000000;
   border: solid 5px rgb(135, 181, 241);
   padding: 10px;
-  background-image: url(./images/Céu\ azul.jpeg);
+  background-image: url(../images/Céu\ azul.jpeg);
   background-size: cover;
 }

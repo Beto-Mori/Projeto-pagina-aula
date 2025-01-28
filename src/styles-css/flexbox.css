@@ -148,3 +148,8 @@
   align-content: stretch;
   flex-wrap: wrap;
 }
+
+.gap {
+  display: flex;
+  gap: 10px;
+}
