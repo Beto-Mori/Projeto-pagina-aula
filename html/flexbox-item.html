@@ -14,10 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Flexbox Container</title>
+    <title>Flexbox Itens</title>
     <link rel="stylesheet" href="../src/styles-css/reset.css" />
-    <!-- <link rel="stylesheet" href="../src/styles-css/flexbox.css" />
-    <link rel="stylesheet" href="../src/styles-css/globals.css" /> -->
+    <link rel="stylesheet" href="../src/styles-css/flexbox2.css" />
+    <link rel="stylesheet" href="../src/styles-css/globals2.css" />
     <link rel="stylesheet" href="../src/styles-css/responsivo.css" />
   </head>
   <body>
@@ -31,7 +31,37 @@
 
     <main>
       <article>
-        <h1 id="titulo">Flexbox</h1>
+        <h1 id="titulo">Flexbox - Flex Items</h1>
+
+        <h2>Flex Item: Grow</h2>
+        <p>
+          É uma propriedade de Flexbox Item, e define a capacidade de um
+          elemento aumentar de tamanho e ocupar mais espaço dentro do Flexbox
+          Container.
+        </p>
+        <div class="container">
+          <div class="grow-1">1</div>
+          <div class="grow-2">2</div>
+          <div class="grow-3">3</div>
+        </div>
+        <p>
+          Se tiver um conteúdo maior dentro de um elemento html com grow
+          aplicado, Por mais que o valor do flex-grow seja menor do que os
+          outros elementos irmãos ele vai aumentar de tamanho.
+        </p>
+
+        <h2>Flex Item: Basis</h2>
+        <p>
+          Essa propriedade especifica o tamanho base / inicial de um flex-item.
+        </p>
+        <div class="container2">
+          <div class="grow-1 basis-auto">Lorem 123</div>
+          <div class="grow-2 basis-auto">Lorem 123 456</div>
+          <div class="grow-3 basis-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            laboriosam eligendi.
+          </div>
+        </div>
       </article>
     </main>
   </body>
