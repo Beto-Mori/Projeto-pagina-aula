@@ -1,19 +1,52 @@
 .container {
-    display: flex;
+  display: flex;
 }
 
 .grow-1 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .grow-2 {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 
 .grow-3 {
-    flex-grow: 3;
+  flex-grow: 3;
 }
 
 .container2 {
+  display: flex;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+}
+
+.basis-auto {
+  flex-basis: auto;
+}
+
+.basis-0 {
+  flex-basis: 0;
+}
+
+.basis-100 {
+  flex-basis: 100px;
+}
+
+.basis-porcentagem {
+    flex-basis: 13%;
+}
+
+.container3 {
     display: flex;
 }
+
