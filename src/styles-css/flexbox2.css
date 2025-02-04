@@ -50,3 +50,31 @@
     display: flex;
 }
 
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+.shrink-2 {
+  flex-shrink: 2;
+}
+
+.shrink-3 {
+  flex-shrink: 3;
+}
+
+.container4 {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 0 1 300px;
+}
+
+.container5{
+  display: flex;
+}
+
+.flex {
+  flex: 1;
+}
+
